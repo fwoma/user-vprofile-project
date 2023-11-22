@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt update
+sudo hostnamectl set-hostname Jenkins-main && sudo apt update -y && sudo apt upgrade -y && sudo apt install wget -y && sudo apt install unzip -y && sudo apt install git -y && sudo apt install curl -y 
 sudo apt install openjdk-11-jdk -y
 sudo apt install maven wget unzip -y
 
